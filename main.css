@@ -1,0 +1,222 @@
+*{
+	margin: 0px;
+	padding; 0px;
+}
+h1{
+	font: bold 20px Tahoma;
+}
+header{
+	display:block;
+}
+body{
+	text-align: center;
+}
+#big_wrapper{
+	border: 4px solid black;
+    background: lightgray;
+	width: 1250px;
+	margin: 5px auto;
+	text-align: left;
+}
+#top_header{
+    color:lightgreen;
+	background: rgb(150,230,255);
+	border: 4px solid lightgreen;
+	padding: 20px;
+}
+.key{
+    font-size: 16px;
+    color:white;
+    background:lightgreen;
+    left: 5px;
+    width: 60px;
+}
+.accidental{
+    font-size: 16px;
+    color:white;
+    background:lightgreen;
+    left: 75px;
+    width: 60px;
+}
+.scale{
+    font-size: 16px;
+    color:white;
+    background:lightgreen;
+    left: 5px;
+    width: 130px;
+}
+.position{
+    font-size: 16px;
+    color:white;
+    background:lightgreen;
+    top: 695px;
+    width: 25px;
+}
+#nextNote{
+    position:absolute;
+    top: 226px;
+    left: 600px;
+}
+#choosePrompt{
+    background: lightgray;
+    position:absolute;
+    top: 148px;
+    left: 0px;
+    width: 140px;
+    height: 657px;
+}
+#keyPrompt{
+    font-size: 24px;
+    position:absolute;
+    top: 166px;
+    left: 45px;
+}
+#scalePrompt{
+    font-size: 24px;
+    position:absolute;
+    top: 421px;
+    left: 40px;
+}
+#positionPrompt{
+    font-size: 24px;
+    position:absolute;
+    top: 741px;
+    left: 30px;
+}
+#noteToPlay{
+	background: white;
+    position:absolute;
+    top: 201px;
+    left: 160px;
+    width: 225px;
+    height: 25px;
+	border: 4px solid lightblue;
+	padding: 20px;
+    -webkit-transition:border 0.5s;
+}
+#noteToPlay:hover{
+    border: 4px solid red;
+}
+#note-name{
+    background:white;
+    position:absolute;
+    top: 201px;
+    left: 475px;
+    width: 25px;
+    height: 25px;
+	border: 4px solid lightblue;
+	padding: 20px;
+    -webkit-transition:border 0.5s;
+}
+#note-name:hover{
+    border: 4px solid lightgreen;
+}
+#playPrompt{
+    position:absolute;
+    top: 176px;
+    left: 225px;
+}
+#notePrompt{
+    position:absolute;
+    top: 176px;
+    left: 425px;
+}
+#frequency{
+    position:absolute;
+    top: 256px;
+    left: 675px;
+}
+#freqPrompt{
+    position:absolute;
+    top: 256px;
+    left: 565px;
+}
+#canvas{
+    position:absolute;
+    top: 410px;
+    left: 140px;
+}
+#a{
+    position:absolute;
+    top: 201px;
+}
+#b{
+    position:absolute;
+    top: 226px;
+}
+#c{
+    position:absolute;
+    top: 251px;
+}
+#d{
+    position:absolute;
+    top: 276px;
+}
+#e{
+    position:absolute;
+    top: 301px;
+}
+#f{
+    position:absolute;
+    top: 326px;
+}
+#g{
+    position:absolute;
+    top: 351px;
+}
+#sharp{
+    position:absolute;
+    top: 201px;
+}
+#flat{
+    position:absolute;
+    top: 226px;
+}
+#n{
+    position:absolute;
+    top: 251px;
+}
+#maj{
+    position:absolute;
+    top: 451px;
+}
+#hMin{
+    position:absolute;
+    top: 501px;
+}
+#mMin{
+    position:absolute;
+    top: 551px;
+}
+#pent{
+    position:absolute;
+    top: 601px;
+}
+#oct{
+    position:absolute;
+    top: 651px;
+}
+#whole{
+    position:absolute;
+    top: 701px;
+}
+#one{
+    position:absolute;
+    left: 5px;
+}
+#two{
+    position:absolute;
+    left: 31px;
+}
+#three{
+    position:absolute;
+    left: 57px;
+}
+#four{
+    position:absolute;
+    left: 83px;
+}
+#five{
+    position:absolute;
+    left: 109px;
+}

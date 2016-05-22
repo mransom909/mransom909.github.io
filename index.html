@@ -1,0 +1,82 @@
+<html>
+<head>
+	<title>Practice!</title>
+	<link rel="stylesheet" href="main.css"/>
+	<script src="identifier.js"></script>
+</head>
+
+<body>
+	<div>
+		<section id="main">
+			<header id="top_header">
+				<img src="ovaLogoFullsize.png" style="width:200px;height:100px;">
+			</header>
+			<text id="choosePrompt">Choose a scale!<br></text>
+            <text id="keyPrompt">Key:<br></text>
+            <text id="scalePrompt">Scale:<br></text>
+            <!--<text id="positionPrompt">Position:<br></text>-->
+			<button class="key" id="a" onclick="keySelect(this.id)"> A</button>
+			<br>
+            <button class="key" id="b" onclick="keySelect(this.id)"> B</button>
+			<br>
+            <button class="key" id="c" onclick="keySelect(this.id)"> C</button>
+			<br>
+            <button class="key" id="d" onclick="keySelect(this.id)"> D</button>
+			<br>
+            <button class="key" id="e" onclick="keySelect(this.id)"> E</button>
+			<br>
+            <button class="key" id="f" onclick="keySelect(this.id)"> F</button>
+			<br>
+			<button class="key" id="g" onclick="keySelect(this.id)">G</button>
+            <br>
+            <button class="accidental" id="sharp" onclick="accidentalSelect(this.id)">#</button>
+            <br>
+            <button class="accidental" id="flat" onclick="accidentalSelect(this.id)">b</button>
+            <br>
+            <button class="accidental" id="n" onclick="accidentalSelect(this.id)">n</button>
+            <br>
+            <button class="scale" id="maj" onclick="scaleSelect(this.id)">Major</button>
+            <br>
+            <button class="scale" id="hMin" onclick="scaleSelect(this.id)">Harm. Minor</button>
+            <br>
+            <button class="scale" id="mMin" onclick="scaleSelect(this.id)">Melo. Minor</button>
+            <br>
+            <button class="scale" id="pent" onclick="scaleSelect(this.id)">Pentatonic</button>
+            <br>
+            <button class="scale" id="oct" onclick="scaleSelect(this.id)">Octotonic</button>
+            <br>
+            <button class="scale" id="whole" onclick="scaleSelect(this.id)">Whole</button>
+            <br>
+			<!--
+            <button class="position" id="one" onclick="positionSelect(this.id)">1</button>
+            <br>
+            <button class="position" id="two" onclick="positionSelect(this.id)">2</button>
+            <br>
+            <button class="position" id="three" onclick="positionSelect(this.id)">3</button>
+            <br>
+            <button class="position" id="four" onclick="positionSelect(this.id)">4</button>
+            <br>
+            <button class="position" id="five" onclick="positionSelect(this.id)">5</button>
+            <br>
+            -->
+            
+			<p id="playPrompt">You need to play...<br></p>
+			<h1 id="noteToPlay"></h1>
+			<br>
+			<p id="notePrompt">It sounds like you're playing...</p>
+			<h1 id="note-name"></h1>
+			<br>
+			<p>
+				<span id="freqPrompt">frequency (Hz):</span>
+				<span id="frequency"></span>
+                <br><button id="nextNote">Next Note</button>
+			</p>
+            <canvas id="canvas" width="1140" height="375">
+				Whoops! Canvas didn't load!
+            </canvas>
+			
+		</section>
+       
+	</div>
+</body>
+</html>
